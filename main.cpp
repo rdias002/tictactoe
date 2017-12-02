@@ -9,6 +9,7 @@ template <class A> //A template for checking equality of 3 variables
 bool Equal(A a, A b, A c){
     return (a==b)?((a==c)?true:false):false;
 }
+
 int main(){
     int gameNumber=0; //For the purpose of who plays first
     int roundNumber,option;
